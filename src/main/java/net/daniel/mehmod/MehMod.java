@@ -14,7 +14,8 @@ import org.slf4j.Logger;
 @Mod(MehMod.MOD_ID)
 public class MehMod
 {
-    // Very Important Comment
+
+
     public static final String MOD_ID = "mehmod";
 
     private static final Logger LOGGER = LogUtils.getLogger();
