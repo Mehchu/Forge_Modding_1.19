@@ -4,5 +4,9 @@
   "item.mehmod.phelps": "Phelps",
   "item.mehmod.torre": "Torre",
 
+  "block.mehmod.zircon_block": "Block of Zircon",
+  "block.mehmod.zircon_ore": "Zircon Ore",
+  "block.mehmod.deepslate_zircon_ore": "Deepslate Zircon Ore",
+
   "itemGroup.mehtab": "Modded Items"
 }

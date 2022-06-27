@@ -1,6 +1,7 @@
 package net.daniel.mehmod;
 
 import com.mojang.logging.LogUtils;
+import net.daniel.mehmod.block.ModBlocks;
 import net.daniel.mehmod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +26,7 @@ public class MehMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
