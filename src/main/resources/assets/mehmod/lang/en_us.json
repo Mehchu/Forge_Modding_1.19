@@ -1,8 +1,11 @@
 {
   "item.mehmod.zircon": "Zircon",
   "item.mehmod.raw_zircon": "Raw Zircon",
+
   "item.mehmod.phelps": "Phelps",
   "item.mehmod.torre": "Torre",
+
+  "item.mehmod.eight_ball": "Eight Ball",
 
   "block.mehmod.zircon_block": "Block of Zircon",
   "block.mehmod.zircon_ore": "Zircon Ore",

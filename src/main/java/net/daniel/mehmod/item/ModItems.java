@@ -1,6 +1,7 @@
 package net.daniel.mehmod.item;
 
 import net.daniel.mehmod.MehMod;
+import net.daniel.mehmod.item.custom.EightBallItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,10 +16,14 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
     public static final RegistryObject<Item> RAW_ZIRCON = ITEMS.register("raw_zircon",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
+
     public static final RegistryObject<Item> PHELPS = ITEMS.register("phelps",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
     public static final RegistryObject<Item> TORRE = ITEMS.register("torre",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
+
+    public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
+            () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB).stacksTo(1)));
 
 
 

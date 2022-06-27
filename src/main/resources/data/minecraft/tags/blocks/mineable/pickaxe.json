@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mehmod:zircon_ore",
+    "mehmod:zircon_block",
+    "mehmod:deepslate_zircon_ore"
+  ]
+}
