@@ -21,6 +21,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
     public static final RegistryObject<Item> TORRE = ITEMS.register("torre",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
+    public static final RegistryObject<Item> KHAN = ITEMS.register("khan",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
 
     public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
             () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB).stacksTo(1)));
