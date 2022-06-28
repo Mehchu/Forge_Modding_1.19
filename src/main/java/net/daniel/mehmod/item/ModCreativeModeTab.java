@@ -10,4 +10,10 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.ZIRCON.get());
         }
     };
+    public static final CreativeModeTab FACE_TAB = new CreativeModeTab("facetab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.PHELPS.get());
+        }
+    };
 }

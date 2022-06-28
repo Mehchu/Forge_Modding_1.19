@@ -5,6 +5,11 @@
   "item.mehmod.phelps": "Phelps",
   "item.mehmod.torre": "Torre",
   "item.mehmod.khan": "Khan",
+  "item.mehmod.harper": "Harper",
+  "item.mehmod.farrow": "Farrow",
+  "item.mehmod.holt": "Holt",
+  "item.mehmod.mcloughlin": "McLoughlin",
+
 
   "item.mehmod.eight_ball": "Eight Ball",
 
@@ -14,5 +19,6 @@
 
   "block.mehmod.jumpy_block": "Jumpy Block",
 
-  "itemGroup.mehtab": "Modded Items"
+  "itemGroup.mehtab": "Modded Items",
+  "itemGroup.facetab": "Faces"
 }

@@ -16,16 +16,31 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
     public static final RegistryObject<Item> RAW_ZIRCON = ITEMS.register("raw_zircon",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
-
-    public static final RegistryObject<Item> PHELPS = ITEMS.register("phelps",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
-    public static final RegistryObject<Item> TORRE = ITEMS.register("torre",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
-    public static final RegistryObject<Item> KHAN = ITEMS.register("khan",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
-
     public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
             () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.MEH_TAB).stacksTo(1)));
+
+    public static final RegistryObject<Item> FARROW = ITEMS.register("farrow",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FACE_TAB)));
+    public static final RegistryObject<Item> HARPER = ITEMS.register("harper",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FACE_TAB)));
+    public static final RegistryObject<Item> HOLT = ITEMS.register("holt",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FACE_TAB)));
+    public static final RegistryObject<Item> KHAN = ITEMS.register("khan",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FACE_TAB)));
+    public static final RegistryObject<Item> MCLOUGHLIN = ITEMS.register("mcloughlin",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FACE_TAB)));
+    public static final RegistryObject<Item> PHELPS = ITEMS.register("phelps",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FACE_TAB)));
+    public static final RegistryObject<Item> TORRE = ITEMS.register("torre",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FACE_TAB)));
+
+
+
+
+
+
+
+
 
 
 
