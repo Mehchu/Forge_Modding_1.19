@@ -1,6 +1,7 @@
 package net.daniel.mehmod.block;
 
 import net.daniel.mehmod.MehMod;
+import net.daniel.mehmod.block.custom.JumpyBlock;
 import net.daniel.mehmod.item.ModCreativeModeTab;
 import net.daniel.mehmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -24,6 +25,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ZIRCON_BLOCK = registerBlock("zircon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MEH_TAB);
+    public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MEH_TAB);
 
     public static final RegistryObject<Block> ZIRCON_ORE = registerBlock("zircon_ore",
