@@ -2,6 +2,13 @@
   "item.mehmod.zircon": "Zircon",
   "item.mehmod.raw_zircon": "Raw Zircon",
 
+  "item.mehmod.zircon_boots": "Zircon Boots",
+  "item.mehmod.zircon_chestplate": "Zircon Chestplate",
+  "item.mehmod.zircon_leggings": "Zircon Leggings",
+  "item.mehmod.zircon_helmet": "Zircon Helmet",
+
+
+
   "item.mehmod.phelps": "Phelps",
   "item.mehmod.torre": "Torre",
   "item.mehmod.khan": "Khan",

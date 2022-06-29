@@ -2,6 +2,8 @@ package net.daniel.mehmod.item;
 
 import net.daniel.mehmod.MehMod;
 import net.daniel.mehmod.item.custom.EightBallItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -33,6 +35,19 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FACE_TAB)));
     public static final RegistryObject<Item> TORRE = ITEMS.register("torre",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FACE_TAB)));
+
+    public static final RegistryObject<Item> ZIRCON_BOOTS = ITEMS.register("zircon_boots",
+            () -> new ArmorItem(ModArmorMaterials.ZIRCON, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
+    public static final RegistryObject<Item> ZIRCON_CHESTPLATE = ITEMS.register("zircon_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ZIRCON, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
+    public static final RegistryObject<Item> ZIRCON_LEGGINGS = ITEMS.register("zircon_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ZIRCON, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
+    public static final RegistryObject<Item> ZIRCON_HELMET = ITEMS.register("zircon_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ZIRCON, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.MEH_TAB)));
 
 
 
